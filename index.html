@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>..</title>
+</head>
+<body>
+<div class="txt">
+
+   <textarea id="comments" name="comments" rows="4" cols="50">
+
+Pode escrever.
+ 
+ Isso é um caderno do desabafo, tudo que escrever será apagado quando apertar em enviar...
+  </textarea>
+  </div>
+  
+  <div class="btns">
+   <button type="button" class="btn" onclick="clearComment()">Limpar Desabafo</button>
+   </div>
+   
+   
+<script>
+  function clearComment() {
+    document.getElementById("comments").value = "";
+  }
+</script>
+
+  </body>
+  </html>
